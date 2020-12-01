@@ -3,7 +3,7 @@ const { GoogleSpreadsheet } = require('google-spreadsheet');
 module.exports = class Sheet {
     constructor() {
         this.doc = new GoogleSpreadsheet(
-            '1H5WaksjBLVwNWMGKOd1_48gK7BijYfZnRNiQSgi6o2c'
+            'xxxxxxxxxxxxxxxxxxxx' // Add Google Spreadsheet ID here
         );
     }
 
